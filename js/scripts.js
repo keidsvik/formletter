@@ -3,7 +3,6 @@ $(document).ready(function() {
     var nameInput = $("input#name").val();
 
     $(".name").text(nameInput);
-
     $("#letter").show();
 
     event.preventDefault();
